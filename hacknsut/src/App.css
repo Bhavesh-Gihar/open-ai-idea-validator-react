@@ -1,0 +1,56 @@
+.header {
+  text-align: end;
+  color: whitesmoke;
+  margin: 2rem 3rem;
+}
+
+.fa-user-circle {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: 1.5rem;
+}
+
+.textOneAI {
+  margin: 5rem 7rem 0rem;
+  font-size: 2rem;
+  color: rgb(204, 204, 204);
+}
+
+.textTwoAI {
+  margin: 0rem 7rem;
+  font-size: 3rem;
+}
+
+.interfaceAI {
+  margin: 1rem;
+}
+
+.resultAI {
+  width: 75rem;
+  height: 24rem;
+  margin: 0rem 6rem;
+}
+
+.inputAI {
+  margin: 3rem 6rem;
+}
+
+.inputTextAI {
+  padding: 2rem 1rem 2rem 1rem;
+  width: 95%;
+  background-color: #1B1919;
+  border-style: none;
+  border-radius: 1rem;
+}
+
+.buttonAI {
+  border-style: none;
+  margin-left: 0.5rem;
+  font-size: 1.5rem;
+  color: white;
+  background-color: #1B1919;
+  position: absolute;
+  top: 48.75rem;
+  right: 10rem;
+  cursor: pointer;
+}
