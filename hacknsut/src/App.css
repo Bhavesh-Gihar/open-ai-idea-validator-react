@@ -11,13 +11,14 @@
 }
 
 .textOneAI {
-  margin: 5rem 7rem 0rem;
+  margin:2rem 7rem 0rem;
   font-size: 2rem;
   color: rgb(204, 204, 204);
 }
 
 .textTwoAI {
-  margin: 0rem 7rem;
+  margin: 0rem 7rem 4rem;
+
   font-size: 3rem;
 }
 
@@ -27,8 +28,12 @@
 
 .resultAI {
   width: 75rem;
-  height: 24rem;
-  margin: 0rem 6rem;
+  height: 18rem;
+  margin: 6rem 6rem;
+  /* border:solid  white; */
+  border-radius: 1rem;
+  padding: 2rem;
+  color: white;
 }
 
 .inputAI {
@@ -38,9 +43,11 @@
 .inputTextAI {
   padding: 2rem 1rem 2rem 1rem;
   width: 95%;
+  margin-top: 2rem 1.5rem;
   background-color: #1B1919;
   border-style: none;
   border-radius: 1rem;
+  color: white;
 }
 
 .buttonAI {
@@ -49,8 +56,8 @@
   font-size: 1.5rem;
   color: white;
   background-color: #1B1919;
-  position: absolute;
-  top: 48.75rem;
-  right: 10rem;
+  position: relative;
+  bottom: 3.2rem;
+  left : 78rem;
   cursor: pointer;
 }

@@ -1,5 +1,24 @@
 {
   "dependencies": {
     "openai": "^3.1.0"
-  }
+  },
+  "name": "open-ai-idea-validator-react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bhavesh-Gihar/open-ai-idea-validator-react.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bhavesh-Gihar/open-ai-idea-validator-react/issues"
+  },
+  "homepage": "https://github.com/Bhavesh-Gihar/open-ai-idea-validator-react#readme",
+  "devDependencies": {},
+  "keywords": [],
+  "description": ""
 }
