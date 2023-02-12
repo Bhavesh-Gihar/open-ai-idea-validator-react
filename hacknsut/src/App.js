@@ -1,16 +1,17 @@
-import './App.css';
-import React from 'react';
-import './index.css';
-import HeaderAI from './components/HeaderAI.jsx'
-import TextAI from './components/TextAI.jsx'
-import InterfaceAI from './components/InterfaceAI.jsx'
+import "./App.css";
+import React from "react";
+import "./index.css";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
+import IdeaValidator from "./screens/IdeaValidator";
 
 function App() {
   return (
     <div className="App">
-      <HeaderAI />
-      <TextAI />
-      <InterfaceAI />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/validator" element={<IdeaValidator />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

@@ -1,10 +1,9 @@
 import React, { useState } from "react";
 const { Configuration, OpenAIApi } = require("openai");
-// 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
 
 function InterfaceAI() {
   const configuration = new Configuration({
-    apiKey: "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",
+    apiKey: "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",
   });
   const [prompt, setPrompt] = useState("");
   async function sendAi(e) {

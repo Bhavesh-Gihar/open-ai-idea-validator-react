@@ -41,7 +41,7 @@
 }
 
 .inputTextAI {
-  padding: 2rem 1rem 2rem 1rem;
+  padding: 2rem 1rem 3rem 1rem;
   width: 95%;
   margin-top: 2rem 1.5rem;
   background-color: #1B1919;
@@ -60,4 +60,6 @@
   bottom: 3.2rem;
   left : 78rem;
   cursor: pointer;
+
+  bottom: 4rem;
 }
